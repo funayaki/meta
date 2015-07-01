@@ -1,8 +1,9 @@
 <?php
 
-namespace Croogo\Meta\Controller;
+namespace Croogo\Meta\Controller\Admin;
 
 use Meta\Controller\MetaAppController;
+
 /**
  * Meta Controller
  *
@@ -46,7 +47,7 @@ class MetaController extends MetaAppController {
  * @return void
  * @access public
  */
-	public function admin_delete_meta($id = null) {
+	public function delete_meta($id = null) {
 		$Meta = ClassRegistry::init('Meta.Meta');
 		$success = false;
 		if ($id != null && $Meta->delete($id)) {
@@ -68,7 +69,7 @@ class MetaController extends MetaAppController {
  * @return void
  * @access public
  */
-	public function admin_add_meta() {
+	public function add_meta() {
 		$this->layout = 'ajax';
 	}
 

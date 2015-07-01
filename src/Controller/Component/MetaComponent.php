@@ -3,6 +3,7 @@
 namespace Croogo\Meta\Controller\Component;
 
 use Cake\Controller\Component;
+
 /**
  * Meta Component
  *
