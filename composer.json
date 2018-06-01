@@ -1,5 +1,5 @@
 {
-    "name": "croogo/meta",
+    "name": "funayaki/meta",
     "description": "Croogo Meta Plugin",
     "require": {
         "croogo/core": "^3.0.1"
